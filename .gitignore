@@ -1,0 +1,29 @@
+# === Jupyter Notebook Checkpoints (Мусор от Colab) ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.local/
+.config/
+
+# === Python Cache (Кэш вычислений) ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# === Matplotlib & Visual Cache (Кэш графиков) ===
+.matplotlib/
+.cache/
+*.png
+*.jpg
+*.jpeg
+
+# === Временные папки с данными (Если скрипт скачивал книги локально) ===
+stylometry_data/
+chronology_stress_test/
+
+# === Системный мусор операционных систем ===
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
